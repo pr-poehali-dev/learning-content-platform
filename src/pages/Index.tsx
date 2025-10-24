@@ -292,6 +292,7 @@ const Index = () => {
             )}
           </section>
         ) : (
+        <>
         <section className="mb-12">
           <div className="bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_100%] animate-[gradient_8s_ease-in-out_infinite] rounded-3xl p-8 md:p-12 text-primary-foreground relative overflow-hidden">
             <div className="relative z-10">
@@ -411,7 +412,7 @@ const Index = () => {
             </Card>
           ))}
         </section>
-        )}
+        </>
         )}
       </main>
 
