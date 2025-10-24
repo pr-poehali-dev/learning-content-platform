@@ -320,7 +320,7 @@ const Index = () => {
         <section>
           <div className="flex items-center justify-between mb-6">
             <h3 className="text-3xl font-bold">Популярные видеоуроки</h3>
-            <Button variant="ghost" className="text-primary">
+            <Button variant="ghost" className="text-primary" onClick={() => setActiveTab('videos')}>
               Смотреть все
               <Icon name="ChevronRight" className="ml-1" size={20} />
             </Button>
@@ -411,6 +411,7 @@ const Index = () => {
             </Card>
           ))}
         </section>
+        )}
         )}
       </main>
 
